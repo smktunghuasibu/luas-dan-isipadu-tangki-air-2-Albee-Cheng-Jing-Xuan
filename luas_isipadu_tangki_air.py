@@ -24,10 +24,10 @@ def luas():
 def isipadu():
     (r,h) = jejari_tinggi()
     # Pengiraan isipadu tangki air (V) 
-    V = ......
+    V = pi * r**2 * h
 
     # Output
-    print("Isipadu tangki air =", round(....,2))
+    print("Isipadu tangki air =", round( V ,2))
 
 if __name__ == "__main__":
     luas()
